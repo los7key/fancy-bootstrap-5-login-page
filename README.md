@@ -1,4 +1,4 @@
-# Bootstrap 5 Login Page
+# Fancy Bootstrap 5 Login Page
 
 ## Introduction
 This is a quick and dirty way to stand up a login page.  
@@ -20,7 +20,9 @@ Obviously, to change the "allowed" credentials for PHP, set the vars here in log
 if ($username === 'admin' && $password === 'password123') {
 ```
 ## Note
-Just as I was putting this repo together I came across @TitanHaxz 's [fork](https://github.com/TitanHaxz/bootstrap-5-login-page/) and it is completely PHP. The only trick (for me) is some bits of it aren't in English.
+
+* Only "PHP mode" will log/capture creds in it's current state. 
+* Just as I was putting this repo together I came across @TitanHaxz 's [fork](https://github.com/TitanHaxz/bootstrap-5-login-page/) and it is completely PHP. The only trick (for me) is some bits of it aren't in English.
 
 # License
 [MIT License](http://opensource.org/licenses/MIT)
